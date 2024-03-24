@@ -1,0 +1,19 @@
+1] attrib +h +r +s ( Hide any file ):
+			-> attrib +h +r +s "<filename.extension>" 
+	
+			>>benefit is with the help of view/hiddenitem they can't show the file file can only visible with command
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2] attrib -h -r -s (show file ):
+			attrib -h -r -s "<filename.extension>"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3] cipher /e ( Encrypt any particular file so this file convert into chiper code so with share this file data will enrypted {Encryption type EFS 128bit} ):
+												
+									-> cipher /e "<file_name.extension>" {Encryption} 
+													
+									-> cipher /c { info about encryption }
+				
+									-> cipher /d { Description }							
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4] assoc.exception ( particular exceptional file is run or not in mysystem and where ):
+								-> assoc.extension {extension of your query file}
